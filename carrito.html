@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Carrito - Gourmet Hub</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="img/logo.png" alt="Logo Gourmet Hub">
+      <span>Gourmet Hub</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="registro.html">Registrarse</a></li>
+        <li><a href="login.html">Iniciar sesión</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <button class="carrito-btn">Carrito ;3 !!!!</button>
+  </header>
+
+
+  <main>
+    <section>
+      <h1>Mi carrito de compras</h1>
+
+      <div id="carrito-items">
+      </div>
+
+      <div class="carrito-total-box">
+        <strong>Total:</strong>
+        <span id="carrito-total">$0</span>
+      </div>
+
+      <button type="button" id="btn-pagar">Pagar</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Gourmet Hub. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/dataProducto.js"></script>
+  <script src="js/carritoLocalStorage.js"></script>
+  <script src="js/carritoBase.js"></script>
+</body>
+</html>
